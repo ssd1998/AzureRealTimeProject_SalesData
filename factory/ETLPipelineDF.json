@@ -1,0 +1,9 @@
+{
+	"name": "ETLPipelineDF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "216f43f7-88b6-493b-8e90-37929a3d64df",
+		"tenantId": "0626e43d-372a-47c5-a356-7287c7312a9d"
+	}
+}

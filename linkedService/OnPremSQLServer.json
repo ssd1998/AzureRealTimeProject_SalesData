@@ -1,0 +1,23 @@
+{
+	"name": "OnPremSQLServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Data Source=DESKTOP-NICT911\\SQLEXPRESS;Initial Catalog=AdventureWorks2022;User ID=sdeshmuk2",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "SQLKeyVault_LinkedService",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "password"
+			}
+		},
+		"connectVia": {
+			"referenceName": "SFHIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

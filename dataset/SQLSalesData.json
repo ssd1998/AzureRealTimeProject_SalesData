@@ -1,0 +1,13 @@
+{
+	"name": "SQLSalesData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OnPremSQLServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
